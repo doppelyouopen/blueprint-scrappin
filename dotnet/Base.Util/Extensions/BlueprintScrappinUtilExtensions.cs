@@ -16,6 +16,16 @@ namespace BlueprintScrappin.Util.Extensions
             return BlueprintScrappinUtil.Falsy(falsyable);
         }
 
+        public static bool Truthy(this System.Boolean truthyable)
+        {
+            return BlueprintScrappinUtil.Truthy(truthyable);
+        }
+
+        public static bool Falsy(this System.Boolean falsyable)
+        {
+            return BlueprintScrappinUtil.Falsy(falsyable);
+        }
+
         public static bool Truthy(this System.Byte truthyable)
         {
             return BlueprintScrappinUtil.Truthy(truthyable);

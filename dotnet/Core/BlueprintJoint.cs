@@ -2,7 +2,7 @@ using System;
 
 namespace BlueprintScrappin 
 {
-    public class BlueprintJoin
+    public class BlueprintJoint
     {
         /// <summary>
         /// nth index of source body in bodies
