@@ -14,7 +14,7 @@ namespace BlueprintScrappin
         bool HasAudioIndex { get; }
         bool HasLength { get; }
         bool HasPitch { get; }
-        bool Volume { get; }
+        bool HasVolume { get; }
         bool HasSpeed { get; }
         bool HasStiffnessLevel { get; }
         bool HasMode { get; }
